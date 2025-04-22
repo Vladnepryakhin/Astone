@@ -1,13 +1,8 @@
 public class Main {
-    public static void chekSumSing(int a, int b) {
-        if (a + b >= 0) {
-            System.out.println("Сумма положительная.");
-        } else {
-            System.out.println("Сумма отрицательная.");
-        }
+    public Main() {
     }
+
     public static void main(String[] args) {
-        chekSumSing(5, 3);
-        chekSumSing(-10, 5);
+        new Tovar(" ЗИГИТ ", 11, " WWE ", " canada ", 1650, " rady ");
     }
 }
